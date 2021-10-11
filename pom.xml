@@ -15,6 +15,7 @@
     <artifactId>AccountProj1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <description>Discovery Awards Account System</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
