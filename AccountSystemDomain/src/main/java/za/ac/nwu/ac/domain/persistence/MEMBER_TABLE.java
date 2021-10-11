@@ -13,7 +13,7 @@ public class MEMBER_TABLE implements Serializable{
     @SequenceGenerator(name = "MEMBER_ID_SEQ", sequenceName = "AccountDB.MEMBER_ID_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "MEMBER_ID_SEQ")
     @Column(name = "MEMBER_ID")
-    private long memberID;
+    private Long memberID;
 
     @Column(name = "MEMBER_NAME")
     private String memberName;
@@ -34,7 +34,7 @@ public class MEMBER_TABLE implements Serializable{
     public MEMBER_TABLE() {
     }
 
-    public long getMemberID() {
+    public Long getMemberID() {
         return memberID;
     }
 
