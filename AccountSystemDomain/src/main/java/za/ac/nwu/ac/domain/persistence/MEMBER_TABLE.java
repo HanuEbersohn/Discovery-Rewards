@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
-@Table(name = "MEMBER_TABLE", schema = "AccountDB")
+@Table(name = "MEMBER_TABLE", schema = "HANU")
 public class MEMBER_TABLE implements Serializable{
 
     @Id
@@ -15,7 +15,7 @@ public class MEMBER_TABLE implements Serializable{
     @Column(name = "MEMBER_ID")
     private Long memberID;
 
-    @Column(name = "MEMBER_NAME")
+    @Column(name = "FULL_NAME")
     private String memberName;
 
     @Column(name = "MILES_AMOUNT")
